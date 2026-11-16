@@ -38,13 +38,16 @@ spreadsheet parameters; tune them to your printer.
 
 ## License
 
-Everything in this repository (code, models, STLs, images) is licensed under the
-[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-See [`LICENSE`](LICENSE).
+This repository uses two licenses:
 
-You may share and adapt it for any purpose, including commercially, **as long as you give
-credit**, for example:
+| What | License | File |
+|---|---|---|
+| Code and docs: everything **outside** `out/` (`t2m/`, `freecad_bridge/`, `designs/`, `journal/`, scripts) | [MIT](https://opensource.org/license/mit) | [`LICENSE`](LICENSE) |
+| Models and media: everything **in** `out/` (FreeCAD `.FCStd`, `.step`, `.stl`, plates, images, animation) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [`out/LICENSE`](out/LICENSE) |
+
+Both require attribution. For the models, credit them like this:
 
 > "Text2Model" by Emil DeVries (https://github.com/Emil-DV/Text2Model), licensed under CC BY 4.0
 
-and indicate if you made changes.
+and indicate if you made changes. For the code, keep the MIT copyright and license notice
+in copies or substantial portions of it.
